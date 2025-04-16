@@ -66,7 +66,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #FF6347;
 }
-#footer{
+#footer {
     background-color: #1c1c1c;
     margin: 0;
     padding: 0;
@@ -74,13 +74,11 @@ li a:hover:not(.active) {
     display: flex;
     justify-content: center;
     gap: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 0; /* Align to the left edge */
+    width: 100%; /* Full width */
+    padding: 10px 0;
     z-index: 1000;
 }
 
@@ -96,11 +94,17 @@ li a:hover:not(.active) {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+.footer-sc:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 .Welcome {
     color: white;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
 }
 
 .Welcome h1 {
