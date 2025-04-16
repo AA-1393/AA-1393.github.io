@@ -38,9 +38,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
     background-color: #0f0f0f;
     border-radius: 10px;
+    z-index: 1001;
+    position: relative;
+    overflow: visible;
 }
 
 li {
@@ -175,12 +180,20 @@ table {
     border-radius: 5px;
 }
 @media (max-width: 768px) {
-    
+    ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    li a {
+        font-size: 16px;
+        padding: 10px 12px;
+    }
+
     .Header-icons {
         width: 20px;
         height: 20px;
     }
-    .contact-card {
-        padding: 15px;
-    }
+    
 }
