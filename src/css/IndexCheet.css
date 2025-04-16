@@ -3,13 +3,6 @@ html, body {
     padding: 0;
     height: 100%;
 }
-body {
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-}
 h1{
     color: #FF6347;
     text-align: center;
@@ -23,6 +16,11 @@ body{
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 p{
     color: white;
@@ -80,6 +78,7 @@ background-color: #FF6347;
     width: 100%;
     z-index: 1000;
 }
+
 .footer-sc {
     width: 50px;
     height: 50px;
@@ -95,7 +94,6 @@ background-color: #FF6347;
 .Welcome {
     color: white;
     text-align: center;
-    padding: 100px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -150,4 +148,11 @@ background-color: #FF6347;
     vertical-align: middle;
     background-color: #FF6347;
     border-radius: 5px;
+}
+@media (max-width: 768px) {
+    
+    .Header-icons {
+        width: 20px;
+        height: 20px;
+    }
 }

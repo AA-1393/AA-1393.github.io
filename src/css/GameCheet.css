@@ -3,13 +3,6 @@ html, body {
     padding: 0;
     height: 100%;
 }
-body {
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-}
 h1{
     color: #FF6347;
     text-align: center;
@@ -23,6 +16,11 @@ body{
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 table{
     border: #FF6347 solid 3px;
@@ -33,6 +31,8 @@ table{
     width: 100%;
     max-width: 1200px;
     table-layout: fixed;
+    overflow-x: auto;
+    display: block;
 }
 td {
     text-align: center;
@@ -159,4 +159,11 @@ background-color: #FF6347;
     vertical-align: middle;
     background-color: #FF6347;
     border-radius: 5px;
+}
+@media (max-width: 768px) {
+    
+    .Header-icons {
+        width: 20px;
+        height: 20px;
+    }
 }

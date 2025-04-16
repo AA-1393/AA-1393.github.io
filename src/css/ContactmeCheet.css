@@ -174,3 +174,13 @@ table {
     vertical-align: middle;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+    
+    .Header-icons {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-card {
+        padding: 15px;
+    }
+}

@@ -126,3 +126,38 @@ p i {
     background-color: #FF6347;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+
+
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+
+    p {
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+
+
+    .about-card {
+        padding: 15px;
+        margin: 10px auto;
+        max-width: 90%;
+    }
+
+
+    .icons {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .Header-icons {
+        width: 20px;
+        height: 20px;
+    }
+}
