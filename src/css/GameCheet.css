@@ -81,13 +81,13 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Center the navigation items */
+    justify-content: center;
     gap: 10px;
     background-color: #0f0f0f;
     border-radius: 10px;
     z-index: 1001;
-    position: relative; /* Ensure it stays visible */
-    overflow: visible; /* Prevent items from being hidden */
+    position: relative;
+    overflow: visible; 
 }
 
 li {
